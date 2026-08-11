@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "geo_39_地域密着型特定施設入居者生活介護（有料老人ホーム）",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "内容": "やまむら【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県高知市下島町124番地1", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990100509-00&ServiceCd=361&Type=search", "url2": "www.yamamurakai.com/" }, "geometry": { "type": "Point", "coordinates": [ 133.507516282803437, 33.554592883736646 ] } },
+{ "type": "Feature", "properties": { "内容": "介護付有料老人ホーム夕やけ小やけ【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県高知市神田1002-1", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990100442-00&ServiceCd=361&Type=search", "url2": "http://f-shizenmura.or.jp" }, "geometry": { "type": "Point", "coordinates": [ 133.505057099999931, 33.540591 ] } },
+{ "type": "Feature", "properties": { "内容": "地域密着型特定施設　花かいろう【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県高知市長浜4450-8", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990100376-00&ServiceCd=361&Type=search", "url2": null }, "geometry": { "type": "Point", "coordinates": [ 133.547374499999933, 33.4891255 ] } },
+{ "type": "Feature", "properties": { "内容": "特定施設　みやびの里【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県高知市比島町4丁目6-9", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990100392-00&ServiceCd=361&Type=search", "url2": "shimadu-miyabinosato.@royal.ocn.ne.jp" }, "geometry": { "type": "Point", "coordinates": [ 133.54913780000004, 33.573182799999941 ] } },
+{ "type": "Feature", "properties": { "内容": "有限会社　たんぽぽ訪問介護事業所【地域密着型特定施設入居者生活介護（有料老人ホーム）】橋上町平野228", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990900056-00&ServiceCd=361&Type=search", "url2": null }, "geometry": { "type": "Point", "coordinates": [ 132.7596359, 32.9683573 ] } },
+{ "type": "Feature", "properties": { "内容": "すくも高齢者住宅菜の花【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県宿毛市平田町戸内223-1", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990900023-00&ServiceCd=361&Type=search", "url2": "http://www.gallery.ne.jp/~y-s-k/" }, "geometry": { "type": "Point", "coordinates": [ 132.778765477909786, 32.954695976408225 ] } },
+{ "type": "Feature", "properties": { "内容": "有料老人ホーム　あったかホーム　ひなげし【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県四万十市安並1696－1", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3991000138-00&ServiceCd=361&Type=search", "url2": null }, "geometry": { "type": "Point", "coordinates": [ 132.939657, 33.003816 ] } },
+{ "type": "Feature", "properties": { "内容": "有料老人ホームあったかホーム　なでしこ【地域密着型特定施設入居者生活介護（有料老人ホーム）】高知県四万十市有岡1727-1なし", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3991000120-00&ServiceCd=361&Type=search", "url2": null }, "geometry": { "type": "Point", "coordinates": [ 132.827013599999987, 32.9643954 ] } }
+]
+}

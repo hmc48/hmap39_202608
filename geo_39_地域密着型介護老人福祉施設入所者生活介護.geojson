@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "geo_39_地域密着型介護老人福祉施設入所者生活介護",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "内容": "特別養護老人ホーム風花の里【地域密着型介護老人福祉施設入所者生活介護】高知県高知市西塚ノ原７６番１", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990100285-00&ServiceCd=540&Type=search", "url2": "http://furusatokai.or.jp" }, "geometry": { "type": "Point", "coordinates": [ 133.491839199999959, 33.5664125 ] } },
+{ "type": "Feature", "properties": { "内容": "特別養護老人ホームつむぐ【地域密着型介護老人福祉施設入所者生活介護】高知県高知市長浜6598-4", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990100699-00&ServiceCd=540&Type=search", "url2": "http://www.fuku-cij.jp" }, "geometry": { "type": "Point", "coordinates": [ 133.547521599999982, 33.490792 ] } },
+{ "type": "Feature", "properties": { "内容": "特別養護老人ホームあんきな家清水ヶ丘【地域密着型介護老人福祉施設入所者生活介護】高知県土佐清水市清水ヶ丘30番2号特別養護老人ホームあんきな家清水ヶ丘", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3990800082-00&ServiceCd=540&Type=search", "url2": "http://www.fuku-seiwakai.com/" }, "geometry": { "type": "Point", "coordinates": [ 132.957002, 32.786888 ] } },
+{ "type": "Feature", "properties": { "内容": "特別養護老人ホーム　光優【地域密着型介護老人福祉施設入所者生活介護】高知県四万十市古津賀３７４２番地１７", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3991000054-00&ServiceCd=540&Type=search", "url2": "http://www.kuroshiofukushikai.com" }, "geometry": { "type": "Point", "coordinates": [ 132.977902388174471, 32.990529774980047 ] } },
+{ "type": "Feature", "properties": { "内容": "ユニット型地域密着型特別養護老人ホーム望海の郷【地域密着型介護老人福祉施設入所者生活介護】高知県高岡郡中土佐町上ノ加江277-10", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3992500169-00&ServiceCd=540&Type=search", "url2": "http://kadofukushikai.com/" }, "geometry": { "type": "Point", "coordinates": [ 133.246309600000018, 33.2742034 ] } },
+{ "type": "Feature", "properties": { "内容": "特別養護老人ホームわかきの桜【地域密着型介護老人福祉施設入所者生活介護】高知県高岡郡佐川町乙3127番地1", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3992500144-00&ServiceCd=540&Type=search", "url2": "http://www.kitajima-hp.com/fukusikai/index_fukusikai.html" }, "geometry": { "type": "Point", "coordinates": [ 133.298256600000059, 33.512454 ] } },
+{ "type": "Feature", "properties": { "内容": "特別養護老人ホーム大井川【地域密着型介護老人福祉施設入所者生活介護】高知県高岡郡四万十町大井川1462番地1", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3992500128-00&ServiceCd=540&Type=search", "url2": "http://www.koubanfukushikai.or.jp/" }, "geometry": { "type": "Point", "coordinates": [ 132.891305600000038, 33.2195996 ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "geo_39_短期入所療養介護（介護医療院）",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "内容": "足摺病院　介護医療院【短期入所療養介護（介護医療院）】高知県土佐清水市旭町１８番７１号", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=39B0800012-00&ServiceCd=551&Type=search", "url2": "www.ashizuribyouin.com" }, "geometry": { "type": "Point", "coordinates": [ 132.9615356, 32.77916 ] } },
+{ "type": "Feature", "properties": { "内容": "介護医療院なかむら【短期入所療養介護（介護医療院）】中村小姓町75番地中村病院", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=39B1000018-00&ServiceCd=551&Type=search", "url2": null }, "geometry": { "type": "Point", "coordinates": [ 132.932388400000036, 32.9945365 ] } },
+{ "type": "Feature", "properties": { "内容": "早明浦病院介護医療院【短期入所療養介護（介護医療院）】高知県土佐郡土佐町田井1372番地", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=39B2300011-00&ServiceCd=551&Type=search", "url2": "http://juzen-kai.or.jp/" }, "geometry": { "type": "Point", "coordinates": [ 133.557330265598807, 33.746941971387969 ] } }
+]
+}

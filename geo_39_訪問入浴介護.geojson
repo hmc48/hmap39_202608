@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "geo_39_訪問入浴介護",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "内容": "くつろぎの家　訪問入浴サービス【訪問入浴介護】高知市若草南町２２－２５", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3970103473-00&ServiceCd=120&Type=search", "url2": "http://www.nagaisakanokai.com" }, "geometry": { "type": "Point", "coordinates": [ 133.487342600000034, 33.540035 ] } },
+{ "type": "Feature", "properties": { "内容": "アースサポート高知【訪問入浴介護】高知県高知市杉井流5番10", "url": "https://www.kaigokensaku.mhlw.go.jp/39/index.php?action_kouhyou_detail_004_kani=true&JigyosyoCd=3970103812-00&ServiceCd=120&Type=search", "url2": "http://www.earthsupport.co.jp" }, "geometry": { "type": "Point", "coordinates": [ 133.554809500000033, 33.56923350000001 ] } }
+]
+}
