@@ -668,12 +668,12 @@ button.menu-sub-btn { flex: 1; padding: 8px; font-size: 11px; cursor: pointer; }
     );
 
     hazardLayers["高潮浸水想定区域"] = L.tileLayer(
-      'https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_pref_data/22/{z}/{x}/{y}.png',
+      'https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_pref_data/39/{z}/{x}/{y}.png',
       { minZoom: 2, maxZoom: 17, maxNativeZoom: 17, opacity: 0.55, pane: 'hazardPane', attribution: hazardAttribution }
     );
 
     hazardLayers["津波浸水想定"] = L.tileLayer(
-      'https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_pref_data/22/{z}/{x}/{y}.png',
+      'https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_pref_data/39/{z}/{x}/{y}.png',
       { minZoom: 2, maxZoom: 17, maxNativeZoom: 17, opacity: 0.55, pane: 'hazardPane', attribution: hazardAttribution }
     );
 
@@ -844,7 +844,7 @@ button.menu-sub-btn { flex: 1; padding: 8px; font-size: 11px; cursor: pointer; }
         .catch(err => console.error(err));
     }
 
-fetch("geo_22_1.geojson")
+fetch("geo_39_1.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["病院"] = L.geoJSON(data, {
@@ -882,7 +882,7 @@ fetch("geo_22_1.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_2.geojson")
+fetch("geo_39_2.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["診療所"] = L.geoJSON(data, {
@@ -920,7 +920,7 @@ fetch("geo_22_2.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_3.geojson")
+fetch("geo_39_3.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["歯科"] = L.geoJSON(data, {
@@ -958,7 +958,7 @@ fetch("geo_22_3.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_4.geojson")
+fetch("geo_39_4.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["助産院"] = L.geoJSON(data, {
@@ -996,7 +996,7 @@ fetch("geo_22_4.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_5.geojson")
+fetch("geo_39_5.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["薬局"] = L.geoJSON(data, {
@@ -1034,7 +1034,7 @@ fetch("geo_22_5.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_訪問介護.geojson")
+fetch("geo_39_訪問介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["訪問介護"] = L.geoJSON(data, {
@@ -1072,7 +1072,7 @@ fetch("geo_22_訪問介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_訪問入浴介護.geojson")
+fetch("geo_39_訪問入浴介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["訪問入浴介護"] = L.geoJSON(data, {
@@ -1110,7 +1110,7 @@ fetch("geo_22_訪問入浴介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_訪問看護.geojson")
+fetch("geo_39_訪問看護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["訪問看護"] = L.geoJSON(data, {
@@ -1148,7 +1148,7 @@ fetch("geo_22_訪問看護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_訪問リハビリテーション.geojson")
+fetch("geo_39_訪問リハビリテーション.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["訪問リハビリテーション"] = L.geoJSON(data, {
@@ -1186,7 +1186,7 @@ fetch("geo_22_訪問リハビリテーション.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_通所介護.geojson")
+fetch("geo_39_通所介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["通所介護"] = L.geoJSON(data, {
@@ -1224,7 +1224,7 @@ fetch("geo_22_通所介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_通所介護（療養通所介護）.geojson")
+fetch("geo_39_通所介護（療養通所介護）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["通所介護（療養通所介護）"] = L.geoJSON(data, {
@@ -1262,7 +1262,7 @@ fetch("geo_22_通所介護（療養通所介護）.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_通所リハビリテーション.geojson")
+fetch("geo_39_通所リハビリテーション.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["通所リハビリテーション"] = L.geoJSON(data, {
@@ -1300,7 +1300,7 @@ fetch("geo_22_通所リハビリテーション.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_福祉用具貸与.geojson")
+fetch("geo_39_福祉用具貸与.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["福祉用具貸与"] = L.geoJSON(data, {
@@ -1338,7 +1338,7 @@ fetch("geo_22_福祉用具貸与.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_短期入所生活介護.geojson")
+fetch("geo_39_短期入所生活介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["短期入所生活介護"] = L.geoJSON(data, {
@@ -1376,7 +1376,7 @@ fetch("geo_22_短期入所生活介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_短期入所療養介護（介護老人保健施設）.geojson")
+fetch("geo_39_短期入所療養介護（介護老人保健施設）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["短期入所療養介護（介護老人保健施設）"] = L.geoJSON(data, {
@@ -1414,7 +1414,7 @@ fetch("geo_22_短期入所療養介護（介護老人保健施設）.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_短期入所療養介護（療養病床を有する病院等）.geojson")
+fetch("geo_39_短期入所療養介護（療養病床を有する病院等）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["短期入所療養介護（療養病床を有する病院等）"] = L.geoJSON(data, {
@@ -1452,7 +1452,7 @@ fetch("geo_22_短期入所療養介護（療養病床を有する病院等）.ge
 })
 .catch(e => {});
 
-fetch("geo_22_短期入所療養介護（介護医療院）.geojson")
+fetch("geo_39_短期入所療養介護（介護医療院）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["短期入所療養介護（介護医療院）"] = L.geoJSON(data, {
@@ -1490,7 +1490,7 @@ fetch("geo_22_短期入所療養介護（介護医療院）.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_認知症対応型共同生活介護.geojson")
+fetch("geo_39_認知症対応型共同生活介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["認知症対応型共同生活介護"] = L.geoJSON(data, {
@@ -1528,7 +1528,7 @@ fetch("geo_22_認知症対応型共同生活介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_特定施設入居者生活介護（有料老人ホーム）.geojson")
+fetch("geo_39_特定施設入居者生活介護（有料老人ホーム）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定施設入居者生活介護（有料老人ホーム）"] = L.geoJSON(data, {
@@ -1566,7 +1566,7 @@ fetch("geo_22_特定施設入居者生活介護（有料老人ホーム）.geojs
 })
 .catch(e => {});
 
-fetch("geo_22_特定施設入居者生活介護（軽費老人ホーム）.geojson")
+fetch("geo_39_特定施設入居者生活介護（軽費老人ホーム）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定施設入居者生活介護（軽費老人ホーム）"] = L.geoJSON(data, {
@@ -1604,7 +1604,7 @@ fetch("geo_22_特定施設入居者生活介護（軽費老人ホーム）.geojs
 })
 .catch(e => {});
 
-fetch("geo_22_特定施設入居者生活介護（サービス付き高齢者向け住宅）.geojson")
+fetch("geo_39_特定施設入居者生活介護（サービス付き高齢者向け住宅）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定施設入居者生活介護（サービス付き高齢者向け住宅）"] = L.geoJSON(data, {
@@ -1642,7 +1642,7 @@ fetch("geo_22_特定施設入居者生活介護（サービス付き高齢者向
 })
 .catch(e => {});
 
-fetch("geo_22_特定施設入居者生活介護（有料老人ホーム・外部サービス利用型）.geojson")
+fetch("geo_39_特定施設入居者生活介護（有料老人ホーム・外部サービス利用型）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定施設入居者生活介護（有料老人ホーム・外部サービス利用型）"] = L.geoJSON(data, {
@@ -1680,7 +1680,7 @@ fetch("geo_22_特定施設入居者生活介護（有料老人ホーム・外部
 })
 .catch(e => {});
 
-fetch("geo_22_特定施設入居者生活介護（軽費老人ホーム・外部サービス利用型）.geojson")
+fetch("geo_39_特定施設入居者生活介護（軽費老人ホーム・外部サービス利用型）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定施設入居者生活介護（軽費老人ホーム・外部サービス利用型）"] = L.geoJSON(data, {
@@ -1718,7 +1718,7 @@ fetch("geo_22_特定施設入居者生活介護（軽費老人ホーム・外部
 })
 .catch(e => {});
 
-fetch("geo_22_特定施設入居者生活介護（サービス付き高齢者向け住宅・外部サービス利用型）.geojson")
+fetch("geo_39_特定施設入居者生活介護（サービス付き高齢者向け住宅・外部サービス利用型）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定施設入居者生活介護（サービス付き高齢者向け住宅・外部サービス利用型）"] = L.geoJSON(data, {
@@ -1756,7 +1756,7 @@ fetch("geo_22_特定施設入居者生活介護（サービス付き高齢者向
 })
 .catch(e => {});
 
-fetch("geo_22_地域密着型特定施設入居者生活介護（有料老人ホーム）.geojson")
+fetch("geo_39_地域密着型特定施設入居者生活介護（有料老人ホーム）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["地域密着型特定施設入居者生活介護（有料老人ホーム）"] = L.geoJSON(data, {
@@ -1794,7 +1794,7 @@ fetch("geo_22_地域密着型特定施設入居者生活介護（有料老人ホ
 })
 .catch(e => {});
 
-fetch("geo_22_地域密着型特定施設入居者生活介護（軽費老人ホーム）.geojson")
+fetch("geo_39_地域密着型特定施設入居者生活介護（軽費老人ホーム）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["地域密着型特定施設入居者生活介護（軽費老人ホーム）"] = L.geoJSON(data, {
@@ -1832,7 +1832,7 @@ fetch("geo_22_地域密着型特定施設入居者生活介護（軽費老人ホ
 })
 .catch(e => {});
 
-fetch("geo_22_地域密着型特定施設入居者生活介護（サービス付き高齢者向け住宅）.geojson")
+fetch("geo_39_地域密着型特定施設入居者生活介護（サービス付き高齢者向け住宅）.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["地域密着型特定施設入居者生活介護（サービス付き高齢者向け住宅）"] = L.geoJSON(data, {
@@ -1870,7 +1870,7 @@ fetch("geo_22_地域密着型特定施設入居者生活介護（サービス付
 })
 .catch(e => {});
 
-fetch("geo_22_特定福祉用具販売.geojson")
+fetch("geo_39_特定福祉用具販売.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["特定福祉用具販売"] = L.geoJSON(data, {
@@ -1908,7 +1908,7 @@ fetch("geo_22_特定福祉用具販売.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_居宅介護支援.geojson")
+fetch("geo_39_居宅介護支援.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["居宅介護支援"] = L.geoJSON(data, {
@@ -1946,7 +1946,7 @@ fetch("geo_22_居宅介護支援.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_介護老人福祉施設.geojson")
+fetch("geo_39_介護老人福祉施設.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["介護老人福祉施設"] = L.geoJSON(data, {
@@ -1984,7 +1984,7 @@ fetch("geo_22_介護老人福祉施設.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_介護老人保健施設.geojson")
+fetch("geo_39_介護老人保健施設.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["介護老人保健施設"] = L.geoJSON(data, {
@@ -2022,7 +2022,7 @@ fetch("geo_22_介護老人保健施設.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_介護療養型医療施設.geojson")
+fetch("geo_39_介護療養型医療施設.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["介護療養型医療施設"] = L.geoJSON(data, {
@@ -2060,7 +2060,7 @@ fetch("geo_22_介護療養型医療施設.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_地域密着型介護老人福祉施設入所者生活介護.geojson")
+fetch("geo_39_地域密着型介護老人福祉施設入所者生活介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["地域密着型介護老人福祉施設入所者生活介護"] = L.geoJSON(data, {
@@ -2098,7 +2098,7 @@ fetch("geo_22_地域密着型介護老人福祉施設入所者生活介護.geojs
 })
 .catch(e => {});
 
-fetch("geo_22_介護医療院.geojson")
+fetch("geo_39_介護医療院.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["介護医療院"] = L.geoJSON(data, {
@@ -2136,7 +2136,7 @@ fetch("geo_22_介護医療院.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_夜間対応型訪問介護.geojson")
+fetch("geo_39_夜間対応型訪問介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["夜間対応型訪問介護"] = L.geoJSON(data, {
@@ -2174,7 +2174,7 @@ fetch("geo_22_夜間対応型訪問介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_認知症対応型通所介護.geojson")
+fetch("geo_39_認知症対応型通所介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["認知症対応型通所介護"] = L.geoJSON(data, {
@@ -2212,7 +2212,7 @@ fetch("geo_22_認知症対応型通所介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_小規模多機能型居宅介護.geojson")
+fetch("geo_39_小規模多機能型居宅介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["小規模多機能型居宅介護"] = L.geoJSON(data, {
@@ -2250,7 +2250,7 @@ fetch("geo_22_小規模多機能型居宅介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_定期巡回・随時対応型訪問介護看護.geojson")
+fetch("geo_39_定期巡回・随時対応型訪問介護看護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["定期巡回・随時対応型訪問介護看護"] = L.geoJSON(data, {
@@ -2288,7 +2288,7 @@ fetch("geo_22_定期巡回・随時対応型訪問介護看護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_看護小規模多機能型居宅介護.geojson")
+fetch("geo_39_看護小規模多機能型居宅介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["看護小規模多機能型居宅介護"] = L.geoJSON(data, {
@@ -2326,7 +2326,7 @@ fetch("geo_22_看護小規模多機能型居宅介護.geojson")
 })
 .catch(e => {});
 
-fetch("geo_22_地域密着型通所介護.geojson")
+fetch("geo_39_地域密着型通所介護.geojson")
 .then(res => res.json())
 .then(data => {
     facilityLayers["地域密着型通所介護"] = L.geoJSON(data, {
