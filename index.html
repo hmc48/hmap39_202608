@@ -50,6 +50,25 @@ body { margin:0; padding:0; overflow:hidden; font-family: sans-serif; }
   overflow-y: auto;
   border: 1px solid #ccc;
 }
+
+/* ★追加：ハザード凡例の右上に表示する閉じる× */
+.hazard-legend-close {
+  position: absolute;
+  top: 2px;
+  right: 6px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 10;
+  padding: 2px 4px;
+  user-select: none;
+}
+
+.hazard-legend-close:hover {
+  color: #000;
+}
 .legend-title { font-weight: bold; margin-bottom: 4px; border-bottom: 1px solid #ddd; padding-bottom: 2px; }
 .legend-item { display: flex; align-items: center; margin-top: 3px; }
 .legend-color { width: 14px; height: 14px; margin-right: 6px; border: 1px solid #aaa; flex-shrink: 0; }
@@ -158,6 +177,9 @@ button.menu-sub-btn { flex: 1; padding: 8px; font-size: 11px; cursor: pointer; }
 
   <!-- ★ 追加：左上ハザード凡例コンテナ -->
   <div id="hazard-legend">
+    <div class="hazard-legend-close"
+         onclick="closeHazardLegend()"
+         title="凡例を閉じる">×</div>
     <div class="legend-title">🔰 ハザード凡例</div>
     <div id="hazard-legend-content"></div>
   </div>
@@ -716,6 +738,14 @@ button.menu-sub-btn { flex: 1; padding: 8px; font-size: 11px; cursor: pointer; }
         { color: "#fef001", label: "地すべり警戒区域" }
       ]
     };
+
+    // ★追加：ハザード凡例を閉じる
+    function closeHazardLegend() {
+      const legendDiv = document.getElementById('hazard-legend');
+      if (legendDiv) {
+        legendDiv.style.display = 'none';
+      }
+    }
 
     // ★ 追加：動的凡例更新処理
     function updateHazardLegend() {
